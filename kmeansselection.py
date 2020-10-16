@@ -1,4 +1,3 @@
-import numpy as np
 import pandas as pd
 from sklearn.cluster import KMeans
 from statistics import mode
@@ -31,6 +30,7 @@ def kmeans_au(filename, num_clusters, dir_name, new_dir):
 
 # Make sure all the files are in OpenFaceprocessed
 
+# EXAMPLE on how to use this function
 dir_name = "C:\\Users\\sahan\\OneDrive\\Documents\\Projects\\HEAL\\OpenFaceprocessed"
 files = os.listdir(dir_name)
 

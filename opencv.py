@@ -1,7 +1,6 @@
 import numpy as np
 import cv2
 import os
-from numpy import random
 
 # File path
 path = 'C:/Users/sahan/Downloads/OpenFace_2.2.0_win_x64/OpenFace_2.2.0_win_x64/processed'
