@@ -56,3 +56,4 @@ model.fit(X_train, Y_train,
 
 # Evaluate model on test data
 score = model.evaluate(X_test, Y_test, verbose=0)
+print(score)
